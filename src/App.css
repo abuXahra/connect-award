@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 100px;
+
+}
+
+.connect-award-section {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-image: url("./components/images/connect_icon.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.celebrated-techies-section {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-image: url("./components/images/iconb.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+
+
+.target-section {
+  padding-top: 50px;
+  padding-bottom: 150px;
+
+}
+
+.signup-section {
+  padding-top: 50px;
+  padding-bottom: 10 0px;
+  height: auto;
+}
+
+.webcaption {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  border-bottom: solid 1px #cccccc;
+}
+
+.purple-bg {
+  background-color: #27053B;
+  background-image: url("./components/images/bg_icon.png"),
+    url("./components/images/bg_icon.png"),
+    url("./components/images/bg_icon.png"),
+    url("./components/images/bg_icon.png");
+  background-repeat: no-repeat;
+
+  background-position: 0 top,
+    990px top,
+    -10px bottom;
+
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list .list-item {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.nav-list .list-item a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+.menu {
+  display: none;
+}
+
+.menu-line {
+  width: 20px;
+  height: 3px;
+  border-radius: 40px;
+  background-color: #27053b;
+  margin-bottom: 4px;
+  margin-right: 10px;
+}
+
+.bg-login {
+  background-color: #EEE8F2;
+  border-radius: 4px;
+  margin-left: 40px;
+}
+
+/* background-color: ; */
+.bg-signup {
+  background-color: #27053b;
+  border-radius: 4px;
+  color: #fff;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.nav-list .list-item:nth-child(7) a {
+  color: white;
+  text-decoration: none;
+}
+
+@media all and (max-width: 780px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 25px;
+  }
+
+
+  .nav-list {
+    list-style-type: none;
+    width: 100%;
+    padding: 0px;
+    display: none;
+  }
+
+  .nav-list .list-item {
+    display: block;
+    padding: 15px;
+    border-top: solid 1px #cccccc;
+  }
+
+  .bg-login {
+    background-color: transparent;
+    border-radius: 0px;
+    margin-left: 00px;
+  }
+
+  .bg-signup {
+    background-color: transparent;
+    border-radius: 0px;
+    color: #000;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .nav-list .list-item:nth-child(7) a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .site-logo {
+    width: 100%;
+  }
+
+  .primary-icon {
+    height: 60px;
+    width: 120px;
+  }
+
+  .active-toggle {
+    display: block;
+  }
+}
