@@ -1,6 +1,6 @@
 import { FaArrowRight } from 'react-icons/fa';
 import { FaMicrosoft } from 'react-icons/fa'
-import logot from '../components/images/connected-awards.png'
+
 
 
 
@@ -8,7 +8,7 @@ export const voteCategories = [
     {
         voteIcon: <FaMicrosoft />,
         title: "Exceptional Data Analyst",
-        arrowIcon: logot,
+        arrowIcon: <FaArrowRight />,
     },
     {
         voteIcon: <FaMicrosoft />,
