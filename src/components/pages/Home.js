@@ -192,7 +192,7 @@ function Home() {
                 </div>
             </section>
 
-            <section className='section'>
+            <section className='section target-section'>
                 <div className="container">
                     <div className="row">
 

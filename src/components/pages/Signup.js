@@ -141,31 +141,28 @@ function CreatAccounts() {
                                     <input style={inputStyle} type="text" name="" id="" />
                                 </div>
                             </div>
-                            <div style={{ width: "100%", margin: "10px 0" }}>
+                            <div style={{ width: "100%", margin: "10px 0", textAlign: "left" }}>
                                 <label class="label">Email Address</label><br />
                                 <input style={inputStyle} type="text" name="" id="" />
                             </div>
 
-                            <div style={{ width: "100%", margin: "10px 0" }}>
+                            <div style={{ width: "100%", margin: "10px 0", textAlign: "left" }}>
                                 <label class="label">Phone Number</label><br />
                                 <input style={inputStyle} type="text" name="" id="" />
                             </div>
-                            <div style={{ width: "100%", margin: "10px 0" }}>
+                            <div style={{ width: "100%", margin: "10px 0", textAlign: "left" }}>
                                 <label class="label">Set Password</label><br />
                                 <input style={inputStyle} type="text" name="" id="" />
                             </div>
 
-                            <div style={{ width: "100%", margin: "10px 0" }}>
+                            <div style={{ width: "100%", margin: "10px 0", textAlign: "left" }}>
                                 <label class="label">Gender</label><br />
-                                <input type="select" name="" id="" />
                                 <select style={inputStyle} name="cars" id="cars">
-                                    <option value="volvo">Volvo</option>
-                                    <option value="saab">Saab</option>
-                                    <option value="mercedes">Mercedes</option>
-                                    <option value="audi">Audi</option>
+                                    <option value="volvo">male</option>
+                                    <option value="saab">female</option>
                                 </select>
                             </div>
-
+                            <div style={{ fontSize: "12px" }}> By registering you agree to Techtrend Africa's <span style={loginColor}>Terms of Use</span> and  <span style={loginColor}>Privace Policy</span></div>
                         </form>
 
 

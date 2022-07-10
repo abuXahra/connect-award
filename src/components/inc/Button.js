@@ -1,17 +1,11 @@
 import React from 'react'
+import { ButtonStyled } from './style/Button.styled'
 
 const Button = ({ buttonUrl, buttonText }) => {
-    const buttonStyle = {
-        backgroundColor: "#27053b",
-        padding: "15px 40px",
-        color: "white",
-        border: "none",
-        borderRadius: "4px"
-    }
 
-    return <button style={buttonStyle} onclick={buttonUrl} type="button">{buttonText}</button>
+    return <ButtonStyled variant="outline" onclick={buttonUrl} type="button">{buttonText}</ButtonStyled>
 
-
+    // return <button style={buttonStyle} onclick={buttonUrl}></button>
 
 }
 
